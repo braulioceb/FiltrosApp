@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>ImageFilter</title>
+    <meta charset="UTF-8">
+  </head>
+  <body>
+    <h1> Image Filters </h1>
+    <div style ="margin: 100px;">
+      <span id = "spinner" style ="display: inline-block;"> FILTER THE IMAGE </span>
+    </div>
+    <input type="file" accept="image/*" id="fileinput">
+    <button onclick = "startBlueFilter()"> Blue Filter </button>
+    <button onclick = "startRedFilter()"> Red Filter </button>
+    <div>
+      <canvas id = "canvas" ></canvas>
+    </div>
+    <script src = "functionality.js"></script>
+  </body>
+</html>
